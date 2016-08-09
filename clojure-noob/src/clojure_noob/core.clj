@@ -131,5 +131,3 @@
   #(+ % inc-by))
 
 (def inc3 (inc-maker 3))
-
-
