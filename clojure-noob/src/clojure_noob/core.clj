@@ -78,3 +78,58 @@
   "Example of a function with a rest parameter"
   [& rest-parameter]
   (map base-func rest-parameter))
+
+(defn mix-parameters
+  "Mix of normal and rest parameters"
+  [normal & rest]
+  (str "Normal: " normal " and now the 'rest': " rest))
+
+
+;; EXAMPLES OF DESCRUCTING
+(defn my-first
+  [[first-element]]
+  first-element)
+
+(defn chooser
+  [[first second & rest]]
+  (println (str "First: " first))
+  (println (str "Second: " second))
+  (println (str "Rest: " rest)))
+
+
+;; MAP DESTRUCTING
+
+(defn location
+  [{lat :lat lng :lng}]
+  (println (str "Latitidue: " lat))
+  (println (str "Longitude: " lng)))
+
+(defn as-location
+  [{:keys [lat lng] :as this-location}]
+  (println (str "Latitude: " lat))
+  (println (str "Longitude: " lng))
+  ;; new part
+  (println this-location)
+  )
+
+;; Function Bodies
+(defn behavior
+  []
+  (+ 1 (* 5 2))
+  "joe")
+
+(defn conditional
+  [x]
+  (if (> x 6)
+    "true"
+    "false"))
+
+;; Clojure
+(defn inc-maker
+  "Create a custom incrementor"
+  [inc-by]
+  #(+ % inc-by))
+
+(def inc3 (inc-maker 3))
+
+
