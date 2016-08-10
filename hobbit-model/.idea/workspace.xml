@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a157d7f2-dd0d-4635-8e48-e3f454a462ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../clojure-noob/.idea/replstate.xml" afterPath="$PROJECT_DIR$/../clojure-noob/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../clojure-noob/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../clojure-noob/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../clojure-noob/src/clojure_noob/core.clj" afterPath="$PROJECT_DIR$/../clojure-noob/src/clojure_noob/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hobbit_model/core.clj" afterPath="$PROJECT_DIR$/src/hobbit_model/core.clj" />
     </list>
     <ignored path="hobbit-model.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hobbit_model/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,10 +44,16 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/hobbit_model/core.clj" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -122,8 +128,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="ReplState" timestamp="1470768587280">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1470849503209">{:repl-history {:ide [], :local [&quot;asym-hobbit-body-parts&quot; &quot;(let [x 3])&quot; &quot;(let [x 3] x)&quot; &quot;(def name-list [\&quot;Paul\&quot; \&quot;Mike\&quot; \&quot;John\&quot;])&quot; &quot;(let (take 2 name-list))&quot; &quot;(let (take 2 name-list) new-list)&quot; &quot;(let [new-list (take 2 name-list)]  new-list)&quot; &quot;(def x 0\n  )&quot; &quot;(let (x 1) x)&quot; &quot;(let [x 1] x)&quot; &quot;x&quot; &quot;(let [[name1 % other-names name-list]] name1)&quot; &quot;(let [[name1 % other-names] name-list] name1 other-names)&quot; &quot;name-list&quot; &quot;(let [[name1 &amp; other-names] name-list] name1 other\n                                       -names)&quot; &quot;(let [[name1 &amp; other-names] name-list] name1 other-names)&quot; &quot;(let [[n1 &amp; n] name-list] n1 n)&quot; &quot;(let [[pongo &amp; dalmatians] name-list]\n  [pongo dalmatians])&quot; &quot;(let [[n1 &amp; n] name-list] [n1 n])&quot; &quot;(doc matching-part)&quot; &quot;(source matching-part)&quot; &quot;(into [] (set [:a :a]))&quot; &quot;(-main)&quot; &quot;(re-find #\&quot;^left-\&quot; \&quot;left-eye\&quot;)&quot; &quot;#\&quot;^left-\&quot; \&quot;left-eye\&quot;&quot; &quot;(reduce [1 2 3 4])&quot; &quot;(reduce + [1 2 3 4])&quot; &quot;(reduce + 15 [1 2 3 4])&quot; &quot;(better-symmetrize-body-parts asym-hobbit-body-parts)&quot; &quot;(my-loop)&quot; &quot;(my-reduce)&quot; &quot;(symmetrize-body-parts asym-hobbit-body-parts)&quot; &quot;(hit asym-hobbit-body-parts)&quot; &quot;(str \&quot;this is\&quot; \&quot;a string\&quot;)&quot; &quot;(vector [\&quot;a\&quot; :b 3])&quot; &quot;(def (vector [\&quot;a\&quot; :b 3]))&quot; &quot;(def b (vector [\&quot;a\&quot; :b 3]))&quot; &quot;(nth b 1)&quot; &quot;(nth 1 b)&quot; &quot;(get 1 b)&quot; &quot;(get b [1])&quot; &quot;(get b 0)&quot; &quot;(b '[\&quot;a\&quot; :B 3])&quot; &quot;(b [\&quot;a\&quot; :B 3])&quot; &quot;(def b [\&quot;a\&quot; :b 3])&quot; &quot;b&quot; &quot;(b 1)&quot; &quot;(get b 1)&quot; &quot;(b 0)&quot; &quot;(this_is_a_list '(1 2 3))&quot; &quot;(def this_is_a_list '(1 2 3))&quot; &quot;(def this-is-a-list '(1 2 3))&quot; &quot;this-is-a-list&quot; &quot;(class this-is-a-list)&quot; &quot;(class b)&quot; &quot;(defn add100 [x] (+ x 100))&quot; &quot;(add100 100)&quot; &quot;(defn dec-maker #(% - 9))&quot; &quot;(defn dec-maker #(- % 9))&quot; &quot;(def dec-maker #(- % 9))&quot; &quot;(def def-maker [def] #(- % def))&quot; &quot;(def [def] def-maker #(- % def))&quot; &quot;(defn def-maker [def] #(- % def))&quot; &quot;(def def9 (def-maker 9))&quot; &quot;(def9 10)&quot; &quot;(map + [1 2 3])&quot; &quot;(map inc [1 2 3])&quot; &quot;(reduce + 15 [1 2 3 4]) &quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.Leningen REPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -249,24 +256,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5021299" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3138614" sideWeight="0.5021299" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.50621116" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42989987" sideWeight="0.818038" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.4937888" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.4978701" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42989987" sideWeight="0.18196203" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23855421" sideWeight="0.4978701" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18097281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -302,8 +309,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hobbit_model/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
