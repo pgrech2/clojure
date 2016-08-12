@@ -81,9 +81,17 @@
    {:month 3 :day 1 :human 4.2 :critter 3.3}
    {:month 3 :day 2 :human 4.0 :critter 3.8}
    {:month 4 :day 1 :human 3.7 :critter 3.9}
-   {:month 4 :day 2 :human 3.7 :critter 3.6}])
+   {:month 4 :day 2 :human 3.7 :critter 3.6}
+   {:month 5 :day 1 :human 3.7 :critter 3.9}
+   {:month 5 :day 2 :human 3.7 :critter 3.6}])
 
+(take-while #(< (:month %) 1) food-journal)
 (take-while #(> (:month %) 3) food-journal)
+(drop-while #(< (:month %) 3) food-journal)
+(drop-while #(> (:month %) 3) food-journal)
+
+;; Get all data for just march
+(take-while #(< (:month %) 4) (drop-while #(< (:month %) 2) food-journal))
 
 
-;; (take-while #(< (:month %) 3) food-journal)
+;; FILTER
