@@ -1,4 +1,4 @@
-(ns clojure-practice.chpt5
+(ns clojure-practice.brave-true.chpt5
   (:gen-class))
 
 (require '[clojure.string :as s])
@@ -54,4 +54,3 @@
   (Thread/sleep 1000)
   x)
 ;; (def memo-sleepy-identity (memoize sleepy-identity))
-

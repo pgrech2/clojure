@@ -1,4 +1,4 @@
-(ns clojure-practice.peg
+(ns clojure-practice.projects.pegthing
   (require [clojure.set :as set]))
 
 (declare successful-move prompt-move game-over prompt-rows)

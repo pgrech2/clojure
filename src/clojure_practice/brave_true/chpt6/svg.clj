@@ -1,4 +1,4 @@
-(ns clojure-practice.the-divine-cheese-code.visualization.svg)
+(ns clojure-practice.brave-true.chpt6.svg)
 
 (defn latlng->point
   "Convert lat/lng map to comma-separated string"

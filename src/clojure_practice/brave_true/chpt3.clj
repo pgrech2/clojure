@@ -1,4 +1,4 @@
-(ns clojure-practice.noob
+(ns clojure-practice.brave-true.chpt3
   (:gen-class))
 
 (defn -main

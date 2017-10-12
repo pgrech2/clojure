@@ -1,4 +1,4 @@
-(ns clojure-practice.the-divine-cheese-code.core)
+(ns clojure-practice.brave-true.chpt6.core)
 ;;;; Ensure that the SVG code is evaluated
 ;;(require ['the-divine-cheese-code.visualization.svg :as 'svg] )
 
