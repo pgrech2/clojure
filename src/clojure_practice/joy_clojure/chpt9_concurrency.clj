@@ -1,4 +1,4 @@
-(ns joyoclojure.chpt9-concurrency)
+(ns clojure-practice.joy-clojure.chpt9-concurrency)
 
 (defn ex1
   "Wait on a thread for 4 seconds"

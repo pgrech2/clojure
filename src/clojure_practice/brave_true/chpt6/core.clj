@@ -17,11 +17,6 @@
 ;;(alias 'svg 'the-divine-cheese-code.visualization.svg)
 
 
-;; An even better way of doing this
-(ns the-divine-cheese-code.core
-  (:require [the-divine-cheese-code.visualization.svg :as svg]))
-
-
 
 (def heists [{:location "Cologne, Germany"
               :cheese-name "Archbishop Hildebold's Cheese Pretzel"
@@ -43,7 +38,3 @@
               :cheese-name "The Cheese of Turin"
               :lat 41.90
               :lng 12.45}])
-
-(defn -main
-  [& args]
-  (println (points heists)))

@@ -1,4 +1,4 @@
-(ns joyoclojure.chess)
+(ns clojure-practice.joy-clojure.chess)
 
 (def ^:dynamic *file-key* \a)
 (def ^:dynamic *rank-key* \0)

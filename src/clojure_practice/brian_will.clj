@@ -1,16 +1,8 @@
-(ns clojure-practice.brian-will
-  (:gen-class))
-
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(ns clojure-practice.brian-will)
 
 (defn factorial [n]
   (if (= n 0) 1
       (* n (factorial (dec n)))))
-
-(defn test [t] (str t))
 
 
                                         ; Print 1 through 100

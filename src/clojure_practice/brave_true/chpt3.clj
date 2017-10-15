@@ -1,15 +1,4 @@
-(ns clojure-practice.brave-true.chpt3
-  (:gen-class))
-
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "my name is paul"))
-
-(defn -main2
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "my name is paul in main 2"))
+(ns clojure-practice.brave-true.chpt3)
 
 
 (defn error-message

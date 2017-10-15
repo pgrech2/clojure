@@ -1,12 +1,5 @@
 (ns clojure-practice.brave-true.chpt5
-  (:gen-class))
-
-(require '[clojure.string :as s])
-
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+  (:require [clojure.string :as s]))
 
 (defn wisdom
   "This is what you need to learn... "
